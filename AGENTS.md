@@ -6,7 +6,7 @@ Guidance for AI coding agents (and new contributors) working in this repository.
 
 GrammarSpace is a grammar-learning web app for children aged 9–12. Learners drag or tap a word into a sentence; a journey path with six discs shows lesson progress. It is a static single-page app with no server and no accounts.
 
-- Live site: https://jayanthyka.github.io/grammarspace-webapp/
+- Live site: https://jayanthyka.github.io/programmering-kurs-gammarspace-webapp/
 - Design source: Figma file "Learning-website". The `design` page holds the original designs; the `implementation review` page holds frames of the app as built.
 
 ## Stack
@@ -65,7 +65,7 @@ src/
 
 ## Deployment
 
-Pushing to `main` runs `.github/workflows/deploy.yml`, which lints, builds and publishes `dist/` to GitHub Pages. Production builds use the base path `/grammarspace-webapp/` (see `vite.config.ts`); the dev server runs at the root. Because every push to `main` goes live, do not push work the owner has not approved.
+Pushing to `main` runs `.github/workflows/deploy.yml`, which lints, builds and publishes `dist/` to GitHub Pages. Production builds use the base path `/programmering-kurs-gammarspace-webapp/` (see `vite.config.ts`); the dev server runs at the root. Because every push to `main` goes live, do not push work the owner has not approved.
 
 ## Working agreement with the owner
 
