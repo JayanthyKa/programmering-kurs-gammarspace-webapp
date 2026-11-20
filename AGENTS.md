@@ -48,7 +48,7 @@ src/
 - **Order and unlocking** (`lesson/lessonOrder.ts`): every unit card is open. Inside a unit the first lesson is open and finishing a lesson unlocks the next one in the same unit. Units follow the order of `TOPICS` in `data/topics.ts` (Parts of speech, Tense, Punctuation, Sentence). "Next lesson" must stay inside the unit; "Next unit" appears only after a unit's last lesson.
 - **Exercise state** lives in the pure reducer `lesson/lessonState.ts`. The journey marker advances only when an answer is correct; keep it that way.
 - **Drag and drop** uses Pointer Events (`hooks/useDragToSlot.ts`) so mouse, touch and pen share one code path. Clicking or pressing Enter on a word must keep working as the accessible alternative.
-- **Persistence** is `localStorage` only: `gs-progress` (XP, finished lessons, saved lesson positions), `gs-profile` (nickname, avatar) and `gs-theme`. Each has a small external store read with `useSyncExternalStore`. Always tolerate missing or malformed stored data.
+- **Persistence** is `localStorage` only: `pk-gs-progress` (XP, finished lessons, saved lesson positions), `pk-gs-profile` (nickname, avatar) and `pk-gs-theme`. Each has a small external store read with `useSyncExternalStore`. Always tolerate missing or malformed stored data.
 - **Themes** are `blue`, `purple` and `red`, set as `data-theme` on `<html>` and defined as CSS variables in `index.css`. Each theme sets the accent colours and a matching page background. There is no dark theme.
 - **Sign-in page** offers "Continue as guest" only in practice; "Log in / Sign up" shows a coming-soon note. Do not collect passwords or any personal data.
 

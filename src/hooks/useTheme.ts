@@ -9,7 +9,7 @@ export const THEMES = [
 
 export type Theme = (typeof THEMES)[number]['id']
 
-const STORAGE_KEY = 'gs-theme'
+const STORAGE_KEY = 'pk-gs-theme'
 const listeners = new Set<() => void>()
 
 function readTheme(): Theme {

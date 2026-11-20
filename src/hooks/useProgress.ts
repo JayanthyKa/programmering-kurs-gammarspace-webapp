@@ -16,7 +16,7 @@ export interface Progress {
 export const XP_PER_CORRECT = 10
 export const XP_PER_LESSON = 40
 
-const STORAGE_KEY = 'gs-progress'
+const STORAGE_KEY = 'pk-gs-progress'
 const EMPTY: Progress = {
   xp: 0,
   correctAnswers: 0,

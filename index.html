@@ -18,7 +18,7 @@
     <script>
       // Apply the saved colour theme before first paint to avoid a flash.
       try {
-        var saved = localStorage.getItem('gs-theme')
+        var saved = localStorage.getItem('pk-gs-theme')
         document.documentElement.dataset.theme =
           saved === 'purple' || saved === 'red' ? saved : 'blue'
       } catch (e) {

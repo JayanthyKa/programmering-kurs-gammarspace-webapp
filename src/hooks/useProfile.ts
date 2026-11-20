@@ -10,7 +10,7 @@ export interface Profile {
 
 export const NAME_MAX_LENGTH = 16
 
-const STORAGE_KEY = 'gs-profile'
+const STORAGE_KEY = 'pk-gs-profile'
 const EMPTY: Profile = { name: '', avatar: null }
 const listeners = new Set<() => void>()
 
