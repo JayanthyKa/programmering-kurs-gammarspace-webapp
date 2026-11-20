@@ -1,6 +1,6 @@
 # GrammarSpace
 
-A grammar-learning web app for children aged 9–12. Short lessons where you drag (or tap) the right word into a sentence, with a playful journey path that tracks progress.
+A grammar-learning web app for children aged 7-10. Short lessons where you drag (or tap) the right word into a sentence, with a playful journey path that tracks progress.
 
 Design: Figma file "Learning-website" (pages `design` and `implementation review`).
 
